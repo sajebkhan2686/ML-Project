@@ -16,7 +16,7 @@ def get_requirements(file_path:str)->List[str]:
             requirements.remove(HYPHEN_E_DOT)
     return requirements
 
-#matadata for entire project
+# Metadata and installation configuration
 setup(
     name='mlproject',
     version='0.0.1',
